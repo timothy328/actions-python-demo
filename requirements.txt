@@ -1,0 +1,4 @@
+# note that we should first have a requirements.in
+
+transformers
+sdepy
