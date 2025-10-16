@@ -1,3 +1,4 @@
+```
 project-root/
 ├── app/                        # Core application logic
 │   ├── __init__.py
@@ -42,3 +43,45 @@ project-root/
 ├── setup.py                   # Optional: for packaging
 ├── Makefile                   # Optional: for task automation
 └── docker-compose.yml         # Optional: for local deployment
+```
+
+### with front end
+```
+project-root/
+├── app/                      # Backend logic (FastAPI, Flask)
+│   ├── api.py                # Routes for simulation, prediction
+│   ├── models.py             # Heston, GBM, ML models
+│   └── services.py           # Business logic
+
+├── frontend/                 # React or Vue frontend
+│   ├── public/               # Static assets
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx     # Stock simulator UI
+│   │   │   └── Docs.jsx          # Embedded or styled docs page
+│   │   └── components/           # Reusable UI elements
+│   └── index.html
+
+├── docs/                     # Markdown docs (used by frontend or static generator)
+│   ├── index.md
+│   ├── getting-started.md
+│   └── api-reference.md
+
+├── static/                   # CSS, JS, images
+│   └── style.css
+
+├── scripts/                  # Batch scoring, cron jobs
+│   └── batch_score.py
+
+├── tests/                    # Unit and integration tests
+│   └── test_simulation.py
+
+├── .env
+├── .gitignore
+├── Dockerfile
+├── requirements.txt
+├── README.md
+└── Makefile
+```
+

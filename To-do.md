@@ -20,3 +20,9 @@ Project Structure (Goal of Local Deployment):
 - Chatbot assistant
 - Test: Unit, Integration (endpoint, db write), Performance/Latency Test, Security, Lint
 
+Separate Apps: 
+- Stochastic Simulation
+- ML Predictor
+- Analytics Dashboard
+- AI Chatbot
+- Optional API or Batch Score via Cron
