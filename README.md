@@ -6,7 +6,8 @@ Goal: Model Score Intelligence
 - Level 2: Relational DB
 - Level 3: AI Recommendations
 
-More big projects: 
+
+**More big projects:** (need to plan out on Notion or similar app) 
 1. Agent for full data science deployment (Data ETL, model, API, logging, etc.)
 2. Daily email like TLDR for most recent quarterly reports and blogs
 3. Watchlist for stocks that simulation options - website?
